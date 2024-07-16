@@ -88,13 +88,12 @@ class HTTPException(Exception):
 
 if __name__ == "__main__":
     buku1 = Buku(
-        judul="Jangan melawan mama kamu ya adik-adik",
-        penulis="Mikha Naftail",
-        penerbit="Nerbitin Sendiri",
-        tahun_terbit=1975,
-        konten="Chapter 1: Menjadi Anak Baik, Chapter 2: Cara Membahagiakan Mama, Chapter 3: Jangan Melawan Mama 4: Anak durhaka 5: Dikutuk nanti",
+         judul="your name ",
+        penulis="Makoto Shinkai",
+        penerbit="Haru",
+        tahun_terbit=2016,
+        konten="Chapter 1: mimpi, Chapter 2: permulaan, Chapter 3: keseharian Chapter 4: jelajah Chapter 5: ingatan Chapter6: kesempatan kedua Chapter7: bertahab hidup dengan indahnya Chapter8: namamu",
         ikhtisar="Buku ini mengajarkan bagaimana adik-adik berbakti kepada mama..."
-
     )
 
 
