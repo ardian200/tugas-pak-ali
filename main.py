@@ -93,13 +93,13 @@ if __name__ == "__main__":
         penerbit="Haru",
         tahun_terbit=2016,
         konten="Chapter 1: mimpi, Chapter 2: permulaan, Chapter 3: keseharian Chapter 4: jelajah Chapter 5: ingatan Chapter6: kesempatan kedua Chapter7: bertahab hidup dengan indahnya Chapter8: namamu",
-        ikhtisar="Buku ini mengajarkan bagaimana adik-adik berbakti kepada mama..."
+        ikhtisar="Buku ini mengajarkan Pesan Moral Novel ini mengingatkan kita untuk menghargai hubungan antar manusia, membantu orang lain, dan selalu mengingat kenangan indah dalam hidup..."
     )
 
 
     post_buku(buku1)
 
-    buku_dari_db = get_buku("Jangan Melawan Mama Kamu ya adik-adik")
+    buku_dari_db = get_buku("your name")
     if buku_dari_db:
         print(buku_dari_db)
         print(buku_dari_db.read(3))
